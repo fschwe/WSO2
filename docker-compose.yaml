@@ -1,0 +1,31 @@
+networks:
+  WSO2_enviroment:
+services:
+  server:
+    build:
+      context: .
+      dockerfile: .Dockerfile
+    ports:
+      - 9443:9443
+    volumes:
+      - ./wso2is-7.1.0:/usr/src/myapp
+    container_name: WSO2_enviroment_server
+    networks:
+      - WSO2_enviroment
+  postgres:
+    image: "postgres:latest"
+    restart: always
+    volumes:
+      - "./postgres_data:/var/lib/postgresql/data"
+    environment:
+      - POSTGRES_PASSWORD=secure_pass_here
+    ports:
+      - "5432:5432"
+
+volumes:
+  mysql_WSO2_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ~/volumes/WSO2MYSQL
