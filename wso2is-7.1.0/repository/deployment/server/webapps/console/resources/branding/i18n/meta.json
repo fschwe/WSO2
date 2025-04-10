@@ -1,0 +1,35 @@
+{
+  "locales": [
+    "en-US",
+    "de-DE",
+    "es-ES",
+    "fr-FR",
+    "ja-JP",
+    "pt-BR",
+    "pt-PT",
+    "zh-CN"
+  ],
+  "screens": {
+    "common": [],
+    "login": [],
+    "sms-otp": [],
+    "email-otp": [],
+    "totp": [],
+    "push-auth": [],
+    "sign-up": [],
+    "password-recovery": [
+      "email-link",
+      "sms-otp",
+      "multi"
+    ],
+    "password-reset": [],
+    "password-reset-success": [],
+    "email-link-expiry": [],
+    "username-recovery-claim": [],
+    "username-recovery-channel-selection": [],
+    "username-recovery-success": [
+      "email",
+      "sms"
+    ]
+  }
+}

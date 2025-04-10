@@ -1,0 +1,81 @@
+[2025-04-01 15:24:00,011]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2025-04-01 15:24:00,025]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2025-04-01 15:24:00,027]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2025-04-01 15:24:00,030]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
+[2025-04-01 15:32:59,791]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2025-04-01 15:32:59,802]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2025-04-01 15:32:59,803]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2025-04-01 15:32:59,805]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
+[2025-04-01 18:39:15,817]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2025-04-01 18:39:15,824]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2025-04-01 18:39:15,825]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2025-04-01 18:39:15,826]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
+[2025-04-01 19:33:30,287]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2025-04-01 19:33:30,309]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2025-04-01 19:33:30,310]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2025-04-01 19:33:30,312]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
+[2025-04-08 20:03:47,172]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2025-04-08 20:03:47,201]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2025-04-08 20:03:47,203]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2025-04-08 20:03:47,204]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
+[2025-04-10 17:57:48,612]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2025-04-10 17:57:48,621]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2025-04-10 17:57:48,622]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2025-04-10 17:57:48,623]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
+[2025-04-10 18:00:34,131]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2025-04-10 18:00:34,146]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2025-04-10 18:00:34,148]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2025-04-10 18:00:34,151]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
+[2025-04-10 18:03:03,491]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2025-04-10 18:03:03,509]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2025-04-10 18:03:03,511]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2025-04-10 18:03:03,514]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
+[2025-04-10 18:21:03,166]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2025-04-10 18:21:03,177]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2025-04-10 18:21:03,179]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2025-04-10 18:21:03,181]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
+[2025-04-10 18:25:50,062]  SEVERE {org.wso2.carbon.server.extensions.DropinsBundleDeployer updateBundlesInfoFile} - Failed to create the directory: /usr/src/myapp/tmp/bundles_info_6d61fe46-cf4f-464f-8593-5cd3b6baff7d/bundles.info 
+java.io.IOException: Failed to create the directory: /usr/src/myapp/tmp/bundles_info_6d61fe46-cf4f-464f-8593-5cd3b6baff7d/bundles.info
+	at org.wso2.carbon.server.extensions.DropinsBundleDeployer.updateBundlesInfoFile(DropinsBundleDeployer.java:353)
+	at org.wso2.carbon.server.extensions.DropinsBundleDeployer.perform(DropinsBundleDeployer.java:114)
+	at org.wso2.carbon.server.Main.invokeExtensions(Main.java:161)
+	at org.wso2.carbon.server.Main.main(Main.java:108)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.wso2.carbon.bootstrap.Bootstrap.loadClass(Bootstrap.java:69)
+	at org.wso2.carbon.bootstrap.Bootstrap.main(Bootstrap.java:51)
+ 
+[2025-04-10 18:25:50,083]  SEVERE {org.wso2.carbon.server.extensions.DropinsBundleDeployer perform} - Error occured while deploying bundles in the dropins directory 
+java.lang.Exception: Error occurred while updating the bundles.info file.
+	at org.wso2.carbon.server.extensions.DropinsBundleDeployer.updateBundlesInfoFile(DropinsBundleDeployer.java:375)
+	at org.wso2.carbon.server.extensions.DropinsBundleDeployer.perform(DropinsBundleDeployer.java:114)
+	at org.wso2.carbon.server.Main.invokeExtensions(Main.java:161)
+	at org.wso2.carbon.server.Main.main(Main.java:108)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.wso2.carbon.bootstrap.Bootstrap.loadClass(Bootstrap.java:69)
+	at org.wso2.carbon.bootstrap.Bootstrap.main(Bootstrap.java:51)
+Caused by: java.io.IOException: Failed to create the directory: /usr/src/myapp/tmp/bundles_info_6d61fe46-cf4f-464f-8593-5cd3b6baff7d/bundles.info
+	at org.wso2.carbon.server.extensions.DropinsBundleDeployer.updateBundlesInfoFile(DropinsBundleDeployer.java:353)
+	... 7 more
+ 
+[2025-04-10 18:25:50,090]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2025-04-10 18:25:50,097]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2025-04-10 18:25:50,098]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2025-04-10 18:25:50,100]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
+[2025-04-10 18:31:17,993]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2025-04-10 18:31:18,008]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2025-04-10 18:31:18,010]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2025-04-10 18:31:18,012]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
+[2025-04-10 18:56:35,600]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2025-04-10 18:56:35,624]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2025-04-10 18:56:35,628]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2025-04-10 18:56:35,632]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
+[2025-04-10 19:15:23,567]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2025-04-10 19:15:23,582]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2025-04-10 19:15:23,584]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2025-04-10 19:15:23,586]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  
+[2025-04-10 19:24:40,909]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - Checking for patch changes ...  
+[2025-04-10 19:24:40,925]  FINE {org.wso2.carbon.server.util.PatchUtils processPatches} - No new patch or service pack detected, server will start without applying patches   
+[2025-04-10 19:24:40,926]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification started  
+[2025-04-10 19:24:40,929]  FINE {org.wso2.carbon.server.util.PatchUtils checkMD5Checksum} - Patch verification successfully completed  

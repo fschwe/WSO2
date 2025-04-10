@@ -1,7 +1,7 @@
 networks:
   WSO2_enviroment:
 services:
-  server:
+  wso2-server:
     build:
       context: .
       dockerfile: .Dockerfile
@@ -16,16 +16,31 @@ services:
     image: "postgres:latest"
     restart: always
     volumes:
-      - "./postgres_data:/var/lib/postgresql/data"
+      - postgre_WSO2_data:/var/lib/postgresql/data
     environment:
-      - POSTGRES_PASSWORD=secure_pass_here
+      POSTGRES_USER: wso2-pg-admin
+      POSTGRES_PASSWORD: pgadmin4
+      POSTGRES_DB: wso2db
     ports:
       - "5432:5432"
-
+    container_name: WSO2_postgre
+    networks:
+      - WSO2_enviroment
+  wso2-front:
+    build:
+      context: ./asgardeo
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - "./asgardeo:/usr/src/app"
+    container_name: WSO2_enviroment_server_front
+    networks:
+      - WSO2_enviroment
 volumes:
-  mysql_WSO2_data:
+  postgre_WSO2_data:
     driver: local
     driver_opts:
       type: none
       o: bind
-      device: ~/volumes/WSO2MYSQL
+      device: ~/volumes/WSO2POSTGRE
