@@ -35,10 +35,10 @@
             </jndiConfig>
             <definition type="RDBMS">
                 <configuration>
-                    <url>jdbc:h2:./repository/database/WSO2SHARED_DB;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=60000</url>
-                    <username>wso2carbon</username>
-                    <password>wso2carbon</password>
-                    <driverClassName>org.h2.Driver</driverClassName>
+                    <url>jdbc:postgresql://postgres:5432/wso2db</url>
+                    <username>wso2-pg-admin</username>
+                    <password>pgadmin4</password>
+                    <driverClassName>org.postgresql.Driver</driverClassName>
                     <testOnBorrow>true</testOnBorrow>
                     <maxWait>60000</maxWait>
                     <defaultAutoCommit>true</defaultAutoCommit>
@@ -60,10 +60,10 @@
    </jndiConfig>
    <definition type="RDBMS">
     <configuration>
-     <url>jdbc:h2:./repository/database/WSO2IDENTITY_DB;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=60000</url>
-     <username>wso2carbon</username>
-     <password>wso2carbon</password>
-     <driverClassName>org.h2.Driver</driverClassName>
+     <url>jdbc:postgresql://postgres:5432/wso2db</url>
+     <username>wso2-pg-admin</username>
+     <password>pgadmin4</password>
+     <driverClassName>org.postgresql.Driver</driverClassName>
       <maxWait>60000</maxWait>
       <maxActive>50</maxActive>
       <testOnBorrow>true</testOnBorrow>

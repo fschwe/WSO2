@@ -13,7 +13,7 @@ type = "database_unique_id"
 
 [database.identity_db]
 type = "postgre"
-url = "WSO2_postgre"
+url = "jdbc:postgresql://postgres:5432/wso2db"
 username = "wso2-pg-admin"
 password = "pgadmin4"
 name = "wso2db"
@@ -21,7 +21,7 @@ port = 5432
 
 [database.shared_db]
 type = "postgre"
-url = "WSO2_postgre"
+url = "jdbc:postgresql://postgres:5432/wso2db"
 username = "wso2-pg-admin"
 password = "pgadmin4"
 name = "wso2db"

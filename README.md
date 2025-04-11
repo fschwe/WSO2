@@ -67,3 +67,9 @@ Dentro del compose se obtiene la ultima imagen de PostgreSQL con los siguientes 
 User name: postgres
 Password: secure_pass_here
 ```
+
+https://flaviocopes.com/react-how-to-configure-https-localhost/
+
+openssl req -x509 -newkey rsa:2048 -keyout keytmp.pem -out cert.pem -days 365
+
+openssl rsa -in keytmp.pem -out key.pem

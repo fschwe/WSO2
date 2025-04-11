@@ -16,7 +16,7 @@ services:
     image: "postgres:latest"
     restart: always
     volumes:
-      - postgre_WSO2_data:/var/lib/postgresql/data
+      - db_data:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: wso2-pg-admin
       POSTGRES_PASSWORD: pgadmin4
@@ -38,9 +38,9 @@ services:
     networks:
       - WSO2_enviroment
 volumes:
-  postgre_WSO2_data:
+  db_data:
     driver: local
     driver_opts:
       type: none
       o: bind
-      device: ~/volumes/WSO2POSTGRE
+      device: ~/WSO2/postgresql_data

@@ -25,7 +25,10 @@ COPY --chown=${USER}:${USER_GROUP} . .
 # Set environment variables
 ENV HOST="0.0.0.0"
 ENV DISABLE_DEV_SERVER_HOST_CHECK=true
-ENV HTTPS=false
+ENV HTTPS=true
+ENV SSL_CRT_FILE=cert.pem
+ENV SSL_KEY_FILE=key.pem
+
 
 # Install dependencies
 RUN npm install
